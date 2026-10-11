@@ -1,0 +1,1446 @@
+{
+  "schema": 1,
+  "benchmarks": {
+    "browsecomp_plus": {
+      "homepage": "https://huggingface.co/datasets/Tevatron/browsecomp-plus"
+    },
+    "webwalker_qa": {
+      "homepage": "https://huggingface.co/datasets/callanwu/WebWalkerQA"
+    },
+    "nq": {
+      "homepage": "https://huggingface.co/datasets/google-research-datasets/nq_open"
+    },
+    "trivia_qa": {
+      "homepage": "https://huggingface.co/datasets/mandarjoshi/trivia_qa"
+    },
+    "popqa": {
+      "homepage": "https://huggingface.co/datasets/akariasai/PopQA"
+    },
+    "hotpot_qa": {
+      "homepage": "https://huggingface.co/datasets/hotpotqa/hotpot_qa"
+    },
+    "2wiki_multihop_qa": {
+      "homepage": "https://huggingface.co/datasets/xanhho/2WikiMultihopQA"
+    },
+    "gaia": {
+      "homepage": "https://huggingface.co/datasets/gaia-benchmark/GAIA"
+    },
+    "xbench_deepsearch": {
+      "homepage": "https://huggingface.co/datasets/xbench/DeepSearch"
+    },
+    "mmsearch_plus": {
+      "homepage": "https://huggingface.co/datasets/Cie1/MMSearch-Plus"
+    },
+    "vdr_bench": {
+      "homepage": "https://huggingface.co/datasets/Osilly/VDR-Bench"
+    },
+    "visbrowse_bench": {
+      "homepage": "https://huggingface.co/datasets/Zhengbo-Zhang/VisBrowse-Bench"
+    },
+    "mmsearch": {
+      "homepage": "https://huggingface.co/datasets/CaraJ/MMSearch"
+    },
+    "simplevqa": {
+      "homepage": "https://huggingface.co/datasets/m-a-p/SimpleVQA"
+    },
+    "livevqa": {
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new"
+    },
+    "musique": {
+      "homepage": "https://github.com/stonybrooknlp/musique"
+    },
+    "bamboogle": {
+      "homepage": "https://github.com/ofirpress/self-ask"
+    },
+    "fvqa": {
+      "homepage": "https://github.com/wangpengnorman/FVQA"
+    },
+    "infoseek": {
+      "homepage": "https://github.com/open-vision-language/infoseek",
+      "images": "https://huggingface.co/datasets/ychenNLP/oven"
+    }
+  },
+  "resources": {
+    "browsecomp_plus/data/test-00000-of-00006.parquet": {
+      "columns": [
+        "query_id",
+        "query",
+        "answer"
+      ],
+      "transport": "hf",
+      "repo": "Tevatron/browsecomp-plus",
+      "file": "data/test-00000-of-00006.parquet",
+      "revision": "144cff8e35b5eaef7e526346aa60774a9deb941f",
+      "homepage": "https://huggingface.co/datasets/Tevatron/browsecomp-plus",
+      "sha256": "4ff9e93054eaee61b8d079a89b7ec4d02f16c9d05fa6e2fef7185b0786427a3a",
+      "bytes": 508023004
+    },
+    "browsecomp_plus/data/test-00001-of-00006.parquet": {
+      "columns": [
+        "query_id",
+        "query",
+        "answer"
+      ],
+      "transport": "hf",
+      "repo": "Tevatron/browsecomp-plus",
+      "file": "data/test-00001-of-00006.parquet",
+      "revision": "144cff8e35b5eaef7e526346aa60774a9deb941f",
+      "homepage": "https://huggingface.co/datasets/Tevatron/browsecomp-plus",
+      "sha256": "70cc3a6781693bb013c6855f231d15159222dddf826eb19947f6f85fcabccd4e",
+      "bytes": 439458597
+    },
+    "browsecomp_plus/data/test-00002-of-00006.parquet": {
+      "columns": [
+        "query_id",
+        "query",
+        "answer"
+      ],
+      "transport": "hf",
+      "repo": "Tevatron/browsecomp-plus",
+      "file": "data/test-00002-of-00006.parquet",
+      "revision": "144cff8e35b5eaef7e526346aa60774a9deb941f",
+      "homepage": "https://huggingface.co/datasets/Tevatron/browsecomp-plus",
+      "sha256": "f4fab28dcd293231da1b9da48680a19c7cdcb831df889d0691304de66016d194",
+      "bytes": 447012029
+    },
+    "browsecomp_plus/data/test-00003-of-00006.parquet": {
+      "columns": [
+        "query_id",
+        "query",
+        "answer"
+      ],
+      "transport": "hf",
+      "repo": "Tevatron/browsecomp-plus",
+      "file": "data/test-00003-of-00006.parquet",
+      "revision": "144cff8e35b5eaef7e526346aa60774a9deb941f",
+      "homepage": "https://huggingface.co/datasets/Tevatron/browsecomp-plus",
+      "sha256": "e738eb7a2e76feebe60632fc279a99773586d75ce5344e205c9c53fc3071c126",
+      "bytes": 415470437
+    },
+    "browsecomp_plus/data/test-00004-of-00006.parquet": {
+      "columns": [
+        "query_id",
+        "query",
+        "answer"
+      ],
+      "transport": "hf",
+      "repo": "Tevatron/browsecomp-plus",
+      "file": "data/test-00004-of-00006.parquet",
+      "revision": "144cff8e35b5eaef7e526346aa60774a9deb941f",
+      "homepage": "https://huggingface.co/datasets/Tevatron/browsecomp-plus",
+      "sha256": "25535ff3d41be25d8b213b903c478f34c18082af3cbfe0a4a3925989b84c87e4",
+      "bytes": 473281326
+    },
+    "browsecomp_plus/data/test-00005-of-00006.parquet": {
+      "columns": [
+        "query_id",
+        "query",
+        "answer"
+      ],
+      "transport": "hf",
+      "repo": "Tevatron/browsecomp-plus",
+      "file": "data/test-00005-of-00006.parquet",
+      "revision": "144cff8e35b5eaef7e526346aa60774a9deb941f",
+      "homepage": "https://huggingface.co/datasets/Tevatron/browsecomp-plus",
+      "sha256": "3a87031c5214322344b358db1d5f44d773b4d634ae43c60ce53ad582ccc47646",
+      "bytes": 498182760
+    },
+    "bamboogle/official.csv": {
+      "transport": "https",
+      "url": "https://docs.google.com/spreadsheets/d/1jwcsA5kE4TObr9YHn9Gc-wQHYjTbLhDGx6tmIzMhl_U/export?format=csv",
+      "homepage": "https://github.com/ofirpress/self-ask/blob/559e56ec1ba8dc93cf63c4148ec1f4717caf4b60/datasets/bamboogle.md",
+      "sha256": "3cfe5ebb8e2b615c5ef6f9b5956d5f3f08c3d5144a1cd72447bdbdf036490443",
+      "bytes": 10900
+    },
+    "musique/release.zip": {
+      "transport": "gdrive",
+      "file_id": "1tGdADlNjWFaHLeZZGShh2IRcpO6Lv24h",
+      "homepage": "https://github.com/stonybrooknlp/musique",
+      "sha256": "98f839bf2fd5319f5c688aed77901a6d5c30b3b9f9f691ab9a8ecafb045ee0cd",
+      "bytes": 272049578
+    },
+    "fvqa/release.zip": {
+      "transport": "https",
+      "url": "https://www.dropbox.com/s/iyz6l7jhbt6jb7q/new_dataset_release.zip?dl=1",
+      "homepage": "https://github.com/wangpengnorman/FVQA",
+      "sha256": "66d1831a61d1282fb0c95c01435eda9b465961d507c1e166e4c32b89687c3c26",
+      "bytes": 473246014
+    },
+    "oven/shard01.tar": {
+      "transport": "hf",
+      "repo": "ychenNLP/oven",
+      "revision": "0f1568c5bcb16b70b189d77164c6bcdc38ee43c2",
+      "file": "shard01.tar",
+      "homepage": "https://huggingface.co/datasets/ychenNLP/oven"
+    },
+    "oven/shard02.tar": {
+      "transport": "hf",
+      "repo": "ychenNLP/oven",
+      "revision": "0f1568c5bcb16b70b189d77164c6bcdc38ee43c2",
+      "file": "shard02.tar",
+      "homepage": "https://huggingface.co/datasets/ychenNLP/oven"
+    },
+    "oven/shard03.tar": {
+      "transport": "hf",
+      "repo": "ychenNLP/oven",
+      "revision": "0f1568c5bcb16b70b189d77164c6bcdc38ee43c2",
+      "file": "shard03.tar",
+      "homepage": "https://huggingface.co/datasets/ychenNLP/oven"
+    },
+    "oven/shard04.tar": {
+      "transport": "hf",
+      "repo": "ychenNLP/oven",
+      "revision": "0f1568c5bcb16b70b189d77164c6bcdc38ee43c2",
+      "file": "shard04.tar",
+      "homepage": "https://huggingface.co/datasets/ychenNLP/oven"
+    },
+    "oven/shard05.tar": {
+      "transport": "hf",
+      "repo": "ychenNLP/oven",
+      "revision": "0f1568c5bcb16b70b189d77164c6bcdc38ee43c2",
+      "file": "shard05.tar",
+      "homepage": "https://huggingface.co/datasets/ychenNLP/oven"
+    },
+    "oven/shard06.tar": {
+      "transport": "hf",
+      "repo": "ychenNLP/oven",
+      "revision": "0f1568c5bcb16b70b189d77164c6bcdc38ee43c2",
+      "file": "shard06.tar",
+      "homepage": "https://huggingface.co/datasets/ychenNLP/oven"
+    },
+    "oven/shard07.tar": {
+      "transport": "hf",
+      "repo": "ychenNLP/oven",
+      "revision": "0f1568c5bcb16b70b189d77164c6bcdc38ee43c2",
+      "file": "shard07.tar",
+      "homepage": "https://huggingface.co/datasets/ychenNLP/oven"
+    },
+    "oven/shard08.tar": {
+      "transport": "hf",
+      "repo": "ychenNLP/oven",
+      "revision": "0f1568c5bcb16b70b189d77164c6bcdc38ee43c2",
+      "file": "shard08.tar",
+      "homepage": "https://huggingface.co/datasets/ychenNLP/oven"
+    },
+    "webwalker_qa/data/silver-00000-of-00001.jsonl": {
+      "transport": "hf",
+      "repo": "callanwu/WebWalkerQA",
+      "file": "data/silver-00000-of-00001.jsonl",
+      "revision": "c7ab3329a2a4a35ca569fdca369b61a3d1787e5b",
+      "homepage": "https://huggingface.co/datasets/callanwu/WebWalkerQA",
+      "sha256": "c1f275ac4313c79e56a627b972c8127e61f34cdc7f399cbd18dc03614097a2cd",
+      "bytes": 7559624
+    },
+    "nq/nq_open/train-00000-of-00001.parquet": {
+      "transport": "hf",
+      "repo": "google-research-datasets/nq_open",
+      "file": "nq_open/train-00000-of-00001.parquet",
+      "revision": "5dd9790a83002ad084ddeb7c420dc716852c6f28",
+      "homepage": "https://huggingface.co/datasets/google-research-datasets/nq_open",
+      "sha256": "25d3a544324f900b31ebc05a3a5686bdd5b9b42738133500675c3f20eee7d83a",
+      "bytes": 4464642
+    },
+    "trivia_qa/rc.nocontext/train-00000-of-00001.parquet": {
+      "transport": "hf",
+      "repo": "mandarjoshi/trivia_qa",
+      "file": "rc.nocontext/train-00000-of-00001.parquet",
+      "revision": "0f7faf33a3908546c6fd5b73a660e0f8ff173c2f",
+      "homepage": "https://huggingface.co/datasets/mandarjoshi/trivia_qa",
+      "sha256": "455223e4a3ba6977611914d96b1b812fe19a6cd4ea3aef4df381f093b297670c",
+      "bytes": 55391498
+    },
+    "hotpot_qa/fullwiki/train-00000-of-00002.parquet": {
+      "transport": "hf",
+      "repo": "hotpotqa/hotpot_qa",
+      "file": "fullwiki/train-00000-of-00002.parquet",
+      "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+      "homepage": "https://huggingface.co/datasets/hotpotqa/hotpot_qa",
+      "sha256": "76d3bb3048a7cc73c1958107c0c5872a00d7e7d00c105b81e92f6769e7822e68",
+      "bytes": 165624177
+    },
+    "hotpot_qa/fullwiki/train-00001-of-00002.parquet": {
+      "transport": "hf",
+      "repo": "hotpotqa/hotpot_qa",
+      "file": "fullwiki/train-00001-of-00002.parquet",
+      "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+      "homepage": "https://huggingface.co/datasets/hotpotqa/hotpot_qa",
+      "sha256": "713661628434fbb19fff7392e2e321e4ed107e3c7c7784d0690946e5f722763f",
+      "bytes": 166162479
+    },
+    "2wiki_multihop_qa/train.parquet": {
+      "transport": "hf",
+      "repo": "xanhho/2WikiMultihopQA",
+      "file": "train.parquet",
+      "revision": "612bc5039a457880d9e7d84c3b0a4cf154b70e4f",
+      "homepage": "https://huggingface.co/datasets/xanhho/2WikiMultihopQA",
+      "sha256": "a0f464f1604edf40ad990b605c61c03d56911c106d09ad32becf6afcf3201d52",
+      "bytes": 343395646
+    },
+    "webwalker_qa/data/main-00000-of-00001.jsonl": {
+      "transport": "hf",
+      "repo": "callanwu/WebWalkerQA",
+      "file": "data/main-00000-of-00001.jsonl",
+      "revision": "c7ab3329a2a4a35ca569fdca369b61a3d1787e5b",
+      "homepage": "https://huggingface.co/datasets/callanwu/WebWalkerQA",
+      "sha256": "cbe95d9de714ef52fe4a9ddf160dfab462407cb1ba526f1c31b4305ca32c34cb",
+      "bytes": 467399
+    },
+    "nq/nq_open/validation-00000-of-00001.parquet": {
+      "transport": "hf",
+      "repo": "google-research-datasets/nq_open",
+      "file": "nq_open/validation-00000-of-00001.parquet",
+      "revision": "5dd9790a83002ad084ddeb7c420dc716852c6f28",
+      "homepage": "https://huggingface.co/datasets/google-research-datasets/nq_open",
+      "sha256": "b074bed0bccb56fa1551a8ac1c9c51ce89bc11c7fbb6a9c713b2c33a98531e12",
+      "bytes": 213603
+    },
+    "trivia_qa/rc.nocontext/validation-00000-of-00001.parquet": {
+      "transport": "hf",
+      "repo": "mandarjoshi/trivia_qa",
+      "file": "rc.nocontext/validation-00000-of-00001.parquet",
+      "revision": "0f7faf33a3908546c6fd5b73a660e0f8ff173c2f",
+      "homepage": "https://huggingface.co/datasets/mandarjoshi/trivia_qa",
+      "sha256": "48a5005c0eb4f8a4ae5b9868644297fd5bf1e694aeb3dc9c8ab958cac0d5b201",
+      "bytes": 7335321
+    },
+    "popqa/test.tsv": {
+      "transport": "hf",
+      "repo": "akariasai/PopQA",
+      "file": "test.tsv",
+      "revision": "098765c79ea10a2cb19c828324e33281b8336ec0",
+      "homepage": "https://huggingface.co/datasets/akariasai/PopQA",
+      "sha256": "9a5227f41bff0e4c331d4a774d946b12f95307892b58f860a9606ef356e6089b",
+      "bytes": 5205200
+    },
+    "hotpot_qa/fullwiki/validation-00000-of-00001.parquet": {
+      "transport": "hf",
+      "repo": "hotpotqa/hotpot_qa",
+      "file": "fullwiki/validation-00000-of-00001.parquet",
+      "revision": "1908d6afbbead072334abe2965f91bd2709910ab",
+      "homepage": "https://huggingface.co/datasets/hotpotqa/hotpot_qa",
+      "sha256": "78933c0a31a5f7b420d4effdf4cd4eed573b28c6a3da6179dcf7a02b39e51d03",
+      "bytes": 28041820
+    },
+    "2wiki_multihop_qa/dev.parquet": {
+      "transport": "hf",
+      "repo": "xanhho/2WikiMultihopQA",
+      "file": "dev.parquet",
+      "revision": "612bc5039a457880d9e7d84c3b0a4cf154b70e4f",
+      "homepage": "https://huggingface.co/datasets/xanhho/2WikiMultihopQA",
+      "sha256": "c0d8b60b9026b728fb07ad74c5252a0f188f6942e8ba5c02df4dfa369502ea8d",
+      "bytes": 30056098
+    },
+    "gaia/2023/validation/metadata.parquet": {
+      "transport": "hf",
+      "repo": "gaia-benchmark/GAIA",
+      "file": "2023/validation/metadata.parquet",
+      "revision": "682dd723ee1e1697e00360edccf2366dc8418dd9",
+      "homepage": "https://huggingface.co/datasets/gaia-benchmark/GAIA",
+      "sha256": "d9141bad0081af438d1ee36d188c5197035dc22a01f64e3f2ee17e45469518e9",
+      "bytes": 116994
+    },
+    "xbench_deepsearch/DeepSearch.csv": {
+      "transport": "hf",
+      "repo": "xbench/DeepSearch",
+      "file": "DeepSearch.csv",
+      "revision": "436bbed79aef5b19c857047650ab528be33c6680",
+      "homepage": "https://huggingface.co/datasets/xbench/DeepSearch",
+      "sha256": "10bdb81321e3d919c052c2c9a7095868d8bc9036f719fb25d9223043aa28c118",
+      "bytes": 84004
+    },
+    "mmsearch_plus/data-00003-of-00005.arrow": {
+      "transport": "hf",
+      "repo": "Cie1/MMSearch-Plus",
+      "file": "data-00003-of-00005.arrow",
+      "revision": "161a60d469b67cd14a0621ae2ab66d902df02df9",
+      "homepage": "https://huggingface.co/datasets/Cie1/MMSearch-Plus",
+      "sha256": "97ad7d58e89d7e872681f4130b421a3cc940f34234f86a38eb5d971919da663e",
+      "bytes": 248904712
+    },
+    "mmsearch_plus/data-00001-of-00005.arrow": {
+      "transport": "hf",
+      "repo": "Cie1/MMSearch-Plus",
+      "file": "data-00001-of-00005.arrow",
+      "revision": "161a60d469b67cd14a0621ae2ab66d902df02df9",
+      "homepage": "https://huggingface.co/datasets/Cie1/MMSearch-Plus",
+      "sha256": "b26837d3240bb9e00ab131e27d40f9cf9cf27843f95358903776af2fcfbdf1c4",
+      "bytes": 187698152
+    },
+    "mmsearch_plus/data-00004-of-00005.arrow": {
+      "transport": "hf",
+      "repo": "Cie1/MMSearch-Plus",
+      "file": "data-00004-of-00005.arrow",
+      "revision": "161a60d469b67cd14a0621ae2ab66d902df02df9",
+      "homepage": "https://huggingface.co/datasets/Cie1/MMSearch-Plus",
+      "sha256": "1a352f3a45b18f558e324a7682ea64c809f997198ad8770731ca772f25d12f6f",
+      "bytes": 73898544
+    },
+    "mmsearch_plus/data-00002-of-00005.arrow": {
+      "transport": "hf",
+      "repo": "Cie1/MMSearch-Plus",
+      "file": "data-00002-of-00005.arrow",
+      "revision": "161a60d469b67cd14a0621ae2ab66d902df02df9",
+      "homepage": "https://huggingface.co/datasets/Cie1/MMSearch-Plus",
+      "sha256": "d70305435c464cf420f784859a1d57ebadc1a21b830c695ed0cf49ce04ec62da",
+      "bytes": 224403560
+    },
+    "mmsearch_plus/data-00000-of-00005.arrow": {
+      "transport": "hf",
+      "repo": "Cie1/MMSearch-Plus",
+      "file": "data-00000-of-00005.arrow",
+      "revision": "161a60d469b67cd14a0621ae2ab66d902df02df9",
+      "homepage": "https://huggingface.co/datasets/Cie1/MMSearch-Plus",
+      "sha256": "a57ae8c0c118ec1f227a5b6cfe6307e8857efffe1a1ee636de53c1ea8c592a80",
+      "bytes": 188863064
+    },
+    "vdr_bench/vision-deepresearch_VDR-Bench-full.parquet": {
+      "transport": "hf",
+      "repo": "Osilly/VDR-Bench",
+      "file": "vision-deepresearch_VDR-Bench-full.parquet",
+      "revision": "fd9f9ae6539ac72e62d11ca5279664e9d8c4a415",
+      "homepage": "https://huggingface.co/datasets/Osilly/VDR-Bench",
+      "sha256": "f03752b57be455205f023927f17557c5fd299a693490f4f7cd8c19d5f046c71d",
+      "bytes": 524608809
+    },
+    "visbrowse_bench/VisBrowse-Bench.jsonl": {
+      "transport": "hf",
+      "repo": "Zhengbo-Zhang/VisBrowse-Bench",
+      "file": "VisBrowse-Bench.jsonl",
+      "revision": "c870e22a33b9c2634556dc4a99d9fc915c92afb0",
+      "homepage": "https://huggingface.co/datasets/Zhengbo-Zhang/VisBrowse-Bench",
+      "sha256": "cc16c9d1b5c8265de3a346296707d8bb02b6730a81d4c7b7f83f653596a02c18",
+      "bytes": 107692
+    },
+    "visbrowse_bench/images/60.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/60.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "41eaf53cc3ac787b2215160af59ad20c2c28db1e4906837c11b9bfd1c9588dcf",
+      "bytes": 2780491
+    },
+    "visbrowse_bench/images/55.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/55.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "cdf9cf67a2e59d10358f324f5fbe09c5bcbd76bf9da383459ea351d6008b273c",
+      "bytes": 2235786
+    },
+    "visbrowse_bench/images/156.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/156.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "537d4c7a6c0b351e34a7aef17a2d20f1d66217ef8d8334da82e4efe3d2734149",
+      "bytes": 897968
+    },
+    "visbrowse_bench/images/106.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/106.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "b86a9af8dd5e188e3b30b527b78ef9f4cf51cef98fa6bb39a493f4b78dc564b3",
+      "bytes": 1490414
+    },
+    "visbrowse_bench/images/146.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/146.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "3093d000b6c40159778160ad24327be95dbba9085feab90bd171e159d6d20c31",
+      "bytes": 395411
+    },
+    "visbrowse_bench/images/34.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/34.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "73d6dbe28b751c7b2824f558e6ed4cb2455a0bc31e0291355418c523eef22c33",
+      "bytes": 53347
+    },
+    "visbrowse_bench/images/59_1.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/59_1.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "69c5cc50cdeb7059f9d56be9c85f560c1541ae8234a13d30cd7b17de8a83c68a",
+      "bytes": 1814364
+    },
+    "visbrowse_bench/images/59_2.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/59_2.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "ff4ea1c07500d3eface50e3a2b99e2026a5d3440e24538c654c6aa44387377bc",
+      "bytes": 78299
+    },
+    "visbrowse_bench/images/16.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/16.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "8f75949408f02f6631e42ead9fb0421a8b5b296cd41db21ddde44fc5d23e1ed6",
+      "bytes": 269401
+    },
+    "visbrowse_bench/images/77.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/77.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "b4d290e89cb5a50eabb0b33d0b353eb01e4d308e3504b4265d3258b7aed158ba",
+      "bytes": 65927
+    },
+    "visbrowse_bench/images/8.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/8.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "f9fcbfde8682d8df6be0cfae609335ac73e589cf1f4aafdcc54f3e424a357667",
+      "bytes": 57492
+    },
+    "visbrowse_bench/images/102.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/102.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "7d9fc5e1e4ce1ba88a8597dc08d195cf57247616f7372dbb3af785bd745ff8ad",
+      "bytes": 584326
+    },
+    "visbrowse_bench/images/145.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/145.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "1050965341802c721c51947b937a1539d044326f5a68cd9e959ef9ee5190d470",
+      "bytes": 1544880
+    },
+    "visbrowse_bench/images/141.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/141.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "07d874b38f3371e765706330c1ae74e8a56148910680ff42b8e77f0f6d2b332d",
+      "bytes": 178088
+    },
+    "visbrowse_bench/images/21.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/21.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "ac4632ae31117aa2dbb6ba8d3981e0c524e85fae0fa06a0b871a39a84f7ca472",
+      "bytes": 922816
+    },
+    "visbrowse_bench/images/84.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/84.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "2830c92c3848377a0d7069e19cdeaf2c992ab8e28beaf1043199f810dd1c7e08",
+      "bytes": 1146354
+    },
+    "visbrowse_bench/images/74.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/74.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "eb25a2cf1d870ae1455c85f02fee9599eef4ba8b2d111ec74eb12b2dd1f24cc1",
+      "bytes": 1702886
+    },
+    "visbrowse_bench/images/22.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/22.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "c395a311d62d6c6514ca0626d5d7f83683b66caa899b302a058e5c3633395ab5",
+      "bytes": 755030
+    },
+    "visbrowse_bench/images/91.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/91.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "64c08a26206556868870196fddd18215fb5ff087a04ff1fefdf63d94e01efa26",
+      "bytes": 91856
+    },
+    "visbrowse_bench/images/39.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/39.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "f40fa97c146e6b032179e57e72008f545204b7c1ac956a47e47fed4e282fea5c",
+      "bytes": 471524
+    },
+    "visbrowse_bench/images/166.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/166.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "b901f361bc709d908926b0cbe36d5aa601371e8fcdef9ad1f9e0cc8264fd62f1",
+      "bytes": 1032436
+    },
+    "visbrowse_bench/images/36.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/36.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "b392c998341cd090bead713df052e09a166795a1d0678fe64bf6ed8b326bcaed",
+      "bytes": 165521
+    },
+    "visbrowse_bench/images/38.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/38.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "c0a4116551efbd7dff0f58b9fd394dd7e890cc55be6168efa1c9d5a070e3ea51",
+      "bytes": 647645
+    },
+    "visbrowse_bench/images/129.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/129.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "a88c2f41ba4a6260ef41b45689efae3aaca1158e96fbd22f247a29c709eeec6f",
+      "bytes": 293358
+    },
+    "visbrowse_bench/images/13_1.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/13_1.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "56f1bdd81f5ed3314528099bba797e9a7edaff0dceff366590390ac9d05c4592",
+      "bytes": 712196
+    },
+    "visbrowse_bench/images/13_2.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/13_2.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "888acaee7e77038035fac70e25b93c34ad3a60c134918e107c5cc6feeb01a19c",
+      "bytes": 407935
+    },
+    "visbrowse_bench/images/127.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/127.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "ddbd418b7e4244e3b7fe76fe16df909b1ba2fde54105cbe7ef7d80640195faee",
+      "bytes": 1003467
+    },
+    "visbrowse_bench/images/23.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/23.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "215b0570de0be4d447c4da4f0607de92c25723d25851768a63ebf72e86806ca6",
+      "bytes": 94613
+    },
+    "visbrowse_bench/images/153.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/153.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "b7bb081b7ad37ce5491adbc88a0df571f32896cfa40a923eef7a9b157ebc2b34",
+      "bytes": 571496
+    },
+    "visbrowse_bench/images/42.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/42.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "ac516238e8f259a7b59e10a4973c9c8d3de934f4b10f23cc530506274cefa1bb",
+      "bytes": 171391
+    },
+    "visbrowse_bench/images/131.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/131.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "3ef79e51f61453e2a334b5d220d5defafb015c07e48edf2e627aa67a288059f0",
+      "bytes": 800676
+    },
+    "visbrowse_bench/images/113_1.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/113_1.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "5d7833dcdda4a3e9fdab5265116b54ff7af571bb134f39d96fe2b442624db396",
+      "bytes": 73127
+    },
+    "visbrowse_bench/images/113_2.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/113_2.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "c61ec6c9b9cf31209c0459a8934a00dd93e3727d59d371226995195b5358ed83",
+      "bytes": 1694162
+    },
+    "visbrowse_bench/images/72.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/72.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "ea185d4731d78875d7146d6505e11985b6684bbf734b896b13e068e99b430f2c",
+      "bytes": 410092
+    },
+    "visbrowse_bench/images/132.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/132.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "aa8d7bcd07ca1c3f0749031240208dc8a7c08d3fef1a27db9317ad0b5eac3d96",
+      "bytes": 420023
+    },
+    "visbrowse_bench/images/24.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/24.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "557c8d8663c9791a6e45cdc8263bd3ede8e8a7caf9a4b31594523cd04a7ff9c9",
+      "bytes": 522641
+    },
+    "visbrowse_bench/images/136.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/136.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "4642b2c3416af8889cf116a59a1a5b1eb07e96c0d17186ef1dd456ac168d46c9",
+      "bytes": 1047058
+    },
+    "visbrowse_bench/images/92.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/92.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "0b98e040735c47df906a2994e8269177c86a98d272e6bfdb8073c68375f07772",
+      "bytes": 381589
+    },
+    "visbrowse_bench/images/33.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/33.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "73d8f4dcfeb554cfcde0e91874a37053c5d38f4b61b3255c517a31c078e280d7",
+      "bytes": 1891670
+    },
+    "visbrowse_bench/images/65_1.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/65_1.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "d98b56e46c6a3a7f6ccab8e6eb4d8a29794f20e53a6008ade8094d7bc5cfd3d6",
+      "bytes": 2446392
+    },
+    "visbrowse_bench/images/65_2.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/65_2.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "4e90f6d2facab01c4492e22cc5d8d3749e88871fffdcba993f73b33436d76d51",
+      "bytes": 744025
+    },
+    "visbrowse_bench/images/4.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/4.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "6a652edb22aca28a8b912348d40043eacca7842185ef8ab1389066f9c253e65b",
+      "bytes": 449274
+    },
+    "visbrowse_bench/images/160.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/160.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "440b1c3b27cc6c5921fbf0f5729e3bb6a701d9267c70d596870dbf8c5ecad23b",
+      "bytes": 243984
+    },
+    "visbrowse_bench/images/81.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/81.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "8d92c64ddef9a543e15262e31abb5092e39ea706bdf30db8c7d6a0a14ddd00e9",
+      "bytes": 84457
+    },
+    "visbrowse_bench/images/162.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/162.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "05e4d640d4a658e99ba7c78514368690b28aba1d84d77ef9a20d51131d9c6abf",
+      "bytes": 665873
+    },
+    "visbrowse_bench/images/165.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/165.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "666a195c789b74ce967592bab56fb44046f46e0add04ff2b30276c1d4be7be38",
+      "bytes": 2965529
+    },
+    "visbrowse_bench/images/29.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/29.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "94ab93657b015b4f9c82b4a22c79e3f1d0d28cbed97390a7883af1602082e0dc",
+      "bytes": 287979
+    },
+    "visbrowse_bench/images/98.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/98.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "bcea9c21066d533b99de1da8f2ed074ac8d83485a7e6cee14fdbbf6707c34042",
+      "bytes": 569794
+    },
+    "visbrowse_bench/images/99.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/99.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "1bf1250a25662d84a5ea43b7b6faca09bc6ec6587c0f97c82a1d12bc8a2b4c2c",
+      "bytes": 1658478
+    },
+    "mmsearch/end2end.parquet": {
+      "transport": "hf",
+      "repo": "CaraJ/MMSearch",
+      "file": "end2end.parquet",
+      "revision": "9c7f07a9822e7fb05ade6fa1ef38d0e6ad26205c",
+      "homepage": "https://huggingface.co/datasets/CaraJ/MMSearch",
+      "sha256": "f1aba2675ae5fccdc9ce5f282dc995dadb1edce9682103815aefe5fbf0eff2e2",
+      "bytes": 63085582
+    },
+    "simplevqa/test.parquet": {
+      "transport": "hf",
+      "repo": "m-a-p/SimpleVQA",
+      "file": "test.parquet",
+      "revision": "037cf89fb6f1212691756b66d1ecde6c2ce89e54",
+      "homepage": "https://huggingface.co/datasets/m-a-p/SimpleVQA",
+      "sha256": "9385aeef23b8a44894b4b8818dbcb87a4ea0a6cc327aa13da96207cfc014ac45",
+      "bytes": 349014606
+    },
+    "visbrowse_bench/images/54.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/54.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "aa0d4370938ebff88edb2eb03a7b50225381c6ee78e62d3a837ba4b298195537",
+      "bytes": 2615981
+    },
+    "visbrowse_bench/images/17.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/17.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "8963306cb87a22e42d29d985a746cf339cd59a0f88617bf731ff90b0ce9267e1",
+      "bytes": 1274876
+    },
+    "visbrowse_bench/images/25.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/25.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "acb2c79025a332e1ac00e9d76831c59d2514ee513ebc5a9b19624857e07959f9",
+      "bytes": 1665565
+    },
+    "visbrowse_bench/images/154.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/154.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "71c138c0d82297b2bf8c58bb6679dd0b1d807944264b03822aaca0291c205c8c",
+      "bytes": 71853
+    },
+    "visbrowse_bench/images/75.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/75.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "672a5bd73e6ac1459b2da2605af8c3bb601a545c7eb8a95eb8b31eb18d2700c2",
+      "bytes": 952223
+    },
+    "visbrowse_bench/images/101.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/101.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "726441fb94832e50d002d74b881e151fa4352fb0220c06f74be45ff505e29b25",
+      "bytes": 3034282
+    },
+    "visbrowse_bench/images/47.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/47.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "38dfa36c322c19a6afd0c95ceabc9fb9202296aa2dd01b4d9de024af8abad6ee",
+      "bytes": 365004
+    },
+    "visbrowse_bench/images/120.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/120.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "64099bac058fd54b4092264b520d9d5feb5389c901eaae7b3ac199eb9da0e0fa",
+      "bytes": 264028
+    },
+    "visbrowse_bench/images/111.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/111.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "daafd3e831e8753d72500d03b602425d623da4916711b9e0dbb1c01b6af207ba",
+      "bytes": 753621
+    },
+    "visbrowse_bench/images/134.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/134.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "8f63cc7df1b2bc79ecb99415ac1fee2ecc5071dc1153073fe26e5f36b4230ce4",
+      "bytes": 245416
+    },
+    "visbrowse_bench/images/19_1.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/19_1.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "b3cd3c3d0a2c92ef16a98e48cfb7e89b0d5746a68b535d80af88de7bb247f26e",
+      "bytes": 1180944
+    },
+    "visbrowse_bench/images/19_2.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/19_2.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "65e2cf42ae51590fbc115040d100bb07e5c4820997c59274a16d3218617ca6b4",
+      "bytes": 787143
+    },
+    "visbrowse_bench/images/56.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/56.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "2b2c0a949163e54bbc65aca877c7bcf0d021852f9e9b8c4e28b300b78c809f85",
+      "bytes": 1217836
+    },
+    "visbrowse_bench/images/9.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/9.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "10a8f284e6cc103a50464bb08d7e704044b806a6545e32c265682767a409adc3",
+      "bytes": 361479
+    },
+    "visbrowse_bench/images/124.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/124.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "6213209bbcd3cfd709af4020b3f16f953172570debeb52c48e376de41fec5fbe",
+      "bytes": 201099
+    },
+    "visbrowse_bench/images/107.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/107.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "62de176281db2e5845b99ec6f380c3f4d5cc505114ca9995e11c7ee6f3561696",
+      "bytes": 449883
+    },
+    "visbrowse_bench/images/122.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/122.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "fdb9b8526d6e163f2dfd914b6472c989e5d38d3f5c18f1a1d2c9001373106425",
+      "bytes": 670790
+    },
+    "visbrowse_bench/images/90.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/90.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "bdff2e769e622f803fb10e54d558c586b735f774f5e0bd35fac423b6ce9820cb",
+      "bytes": 1587406
+    },
+    "visbrowse_bench/images/32.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/32.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "5fa82093906b6972ec7d3b55ada5f9276b710f5e288bdb4cb1b0d8f3a37228f4",
+      "bytes": 294270
+    },
+    "visbrowse_bench/images/30.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/30.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "9cee38b239da5c8968f9f432a9d566df19572c2a2aa362973ad8a3689d2c9200",
+      "bytes": 727892
+    },
+    "visbrowse_bench/images/18.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/18.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "ddab9fde82b73050835f8977ad9e0637aa020c65e4997353d414e9a910f8d747",
+      "bytes": 2225637
+    },
+    "visbrowse_bench/images/7.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/7.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "e3c04c91634d851bfb8bde186d184f28cb505c1758aa26e8773de6d167106a7a",
+      "bytes": 391583
+    },
+    "visbrowse_bench/images/93.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/93.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "638b82b838bebff67ffc35f99c98a4858b3ff24541fe8c2bd70770ae8b8e4325",
+      "bytes": 1500889
+    },
+    "visbrowse_bench/images/80.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/80.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "4183fd9f6a18d493790b4493b0a7c9ab8122c0212c326aed9ba10ac90f806793",
+      "bytes": 1698892
+    },
+    "visbrowse_bench/images/119.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/119.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "0b7afef25ea748608da88e6eab83d6426526d6dd295e235e1407eac950700957",
+      "bytes": 2375320
+    },
+    "visbrowse_bench/images/10.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/10.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "e16e64d2fdc76ff42a0570af82bf6a6bac34f00ff563357498e575e978eab91d",
+      "bytes": 2485750
+    },
+    "visbrowse_bench/images/26.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/26.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "f7b3755dc229bc459e0b5ae683a71f1a2c053ebce35e22352967271bc4fe1ddb",
+      "bytes": 385482
+    },
+    "visbrowse_bench/images/79.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/79.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "1b33da5a2e2ccbda1f448ca3dc67ce9dbc06d250ee2fa868669f7e2942115b4a",
+      "bytes": 190597
+    },
+    "visbrowse_bench/images/117.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/117.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "89f088178d640ea7d723d80392bdcee1d1b16aec25a739c3301482d4b532d140",
+      "bytes": 127490
+    },
+    "visbrowse_bench/images/11.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/11.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "3dc698ab5156de5ace0446f6801072b4c6681da737a3f0c0bfda360ee2b1e09a",
+      "bytes": 543891
+    },
+    "visbrowse_bench/images/125.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/125.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "c3bc11a73275c3cf2745dbbcc68c3169fb123afb7975d251a6ef01e512916a25",
+      "bytes": 112445
+    },
+    "visbrowse_bench/images/133.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/133.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "607189e2496578181384aa3f4beecdf9d11fafd69bb13db6b1267021266bf2f5",
+      "bytes": 310219
+    },
+    "visbrowse_bench/images/152.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/152.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "d2bc64e090ac48dddf990423d4611dea2a039db1f4a65cc6175d14a9a283d87f",
+      "bytes": 754369
+    },
+    "visbrowse_bench/images/57.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/57.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "8c744c951978ed30b3538cb28ee867b18325578109e70a1047873faaa392c0d0",
+      "bytes": 2099065
+    },
+    "visbrowse_bench/images/2.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/2.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "54e2422aec2916ff68d261193cefd5d9549b760d79c4b7ade96d190cdc0b8afe",
+      "bytes": 489325
+    },
+    "visbrowse_bench/images/43.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/43.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "d8a6428099771aee1bea434f1525300fe595f20e4dcfb8d7119758f121a88106",
+      "bytes": 1808293
+    },
+    "visbrowse_bench/images/66.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/66.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "82992e6fb7d2c379e56bb47d3287bd01eb8bae611de3c4fe81841c2d9cea8ec6",
+      "bytes": 436082
+    },
+    "visbrowse_bench/images/69.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/69.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "d5e4a3477c7a63b5000c9de845be63895b63fbd430321f4e1dcb2d67f5864747",
+      "bytes": 178108
+    },
+    "visbrowse_bench/images/104.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/104.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "75c7f999bb451bf07e36c5c490e28ed4cd8fd400176e5149752957aa4164b5e7",
+      "bytes": 925694
+    },
+    "visbrowse_bench/images/123.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/123.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "93ce870673fc30ffeddb2695419d5128b5c02b94f4be5614562467df8dcaea59",
+      "bytes": 457107
+    },
+    "visbrowse_bench/images/83.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/83.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "ed715bf38abe050396a3d4bd6b28cb0095fb9f579ee0505653aff629aa8a2a78",
+      "bytes": 1329844
+    },
+    "visbrowse_bench/images/110.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/110.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "55f3db448a588fb5f0f8a515f566321f1f24d4680306783260c0e36064764b0e",
+      "bytes": 99697
+    },
+    "visbrowse_bench/images/151.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/151.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "d4d2afb0a1ce12e8330a8f5d88a5cb36d10c4811597c792a89fc94d2b683ffa5",
+      "bytes": 2299508
+    },
+    "visbrowse_bench/images/73.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/73.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "11dd5d4d91c24996422c1d0ba47d448f7abd44d7d30b93c65c76d9d070a55d7e",
+      "bytes": 1372200
+    },
+    "visbrowse_bench/images/130.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/130.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "afa17e9f4f5e43156b7413782a58aeb36281cc3aca4f4a076cf21bf7df54fc41",
+      "bytes": 732728
+    },
+    "visbrowse_bench/images/87.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/87.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "d2d3c9e8e319761f63ee265e2a006f311fbe1b0bfbcf7c0fe7100f312ac346b4",
+      "bytes": 1620447
+    },
+    "visbrowse_bench/images/85.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/85.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "5e3ce87bdce0900c9caf4a7003440861df75191182f37e49a9ad2af5202facdd",
+      "bytes": 943634
+    },
+    "visbrowse_bench/images/41.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/41.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "5e21e984701e663bc59411278dea2114f0c147c62f66b9d45a033d906631423f",
+      "bytes": 313951
+    },
+    "visbrowse_bench/images/40.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/40.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "67412cb306387001f583cb89a74ee2af6d48379dcf32743051bbb742e686ba79",
+      "bytes": 121241
+    },
+    "visbrowse_bench/images/82.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/82.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "47c62b254e848bce69d895723e4970ea9333b32048c19ce1cefca18b090fa223",
+      "bytes": 1343170
+    },
+    "visbrowse_bench/images/105.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/105.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "ae5bf6de8730626b1a3619164936b4935c7f153f7d61f05ebb2a8f9332e18f77",
+      "bytes": 365001
+    },
+    "visbrowse_bench/images/139.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/139.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "5d00078fcc6e1872aeed1f4ab698d3c79f3e714724e5950c567d268cfd84bdf1",
+      "bytes": 695090
+    },
+    "visbrowse_bench/images/144.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/144.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "a9d76049c9fc2438134cad77f406317ac2e11a7b3e9da3658d2e769152fed635",
+      "bytes": 2070790
+    },
+    "visbrowse_bench/images/128.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/128.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "78c5a061d04dad197a8e303e432b7b56d3c5b4f076837d62d53763839daa8d33",
+      "bytes": 1224469
+    },
+    "visbrowse_bench/images/149.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/149.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "478f5692241ebb0e1b9431d8dffa854d68fde1b9fc1fd0d74cc0c2271b6c429e",
+      "bytes": 911460
+    },
+    "visbrowse_bench/images/116.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/116.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "956eee9d54d5928fb89a6308c6b4a4471341356e08f9a310caab6e3241c0eca3",
+      "bytes": 64472
+    },
+    "visbrowse_bench/images/137.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/137.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "7708c8240e7a3248c154f56fd823fbfd2e6ebc60f066631431748847e831b45f",
+      "bytes": 1162730
+    },
+    "visbrowse_bench/images/71.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/71.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "4e4fbab4855bd98e82fa681fb2ea8f23f81f7af82dbb9007a9e68341cbf4b545",
+      "bytes": 95780
+    },
+    "visbrowse_bench/images/49.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/49.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "057d7b2cf9fa01c109ca5eb97324c71be0f178551017687e109a41b362ca72ff",
+      "bytes": 298588
+    },
+    "visbrowse_bench/images/70.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/70.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "8aef2a4d54f93d9364d65aed9ed9baed8c76a198c9c59d587ee53eb9056c9f72",
+      "bytes": 1087549
+    },
+    "visbrowse_bench/images/148.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/148.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "e8131a67e58245d26a6c861087c94ae918561af8b8fb927040cb82aae7ecf317",
+      "bytes": 767864
+    },
+    "visbrowse_bench/images/118.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/118.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "d0d96e0e7b10cc5010067e752c2fe56bcd0446172e63c40cda4bb333c909f205",
+      "bytes": 377544
+    },
+    "visbrowse_bench/images/45.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/45.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "8034a5d9002c2e391f8f6cbfb5452d6ef64844ea7b76f8a20092632eb098c194",
+      "bytes": 479074
+    },
+    "visbrowse_bench/images/37.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/37.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "d5a34c34e561047b8b6be50a86929bce28258ff5a75c7409ec7acca1a8d22788",
+      "bytes": 1961218
+    },
+    "visbrowse_bench/images/86.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/86.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "693955243d0cc6fb685b822b7b59984c0c4f983c7a2193027bd5690be9cd718d",
+      "bytes": 96825
+    },
+    "visbrowse_bench/images/143.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/143.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "68601e2e3319adecf4a989c40b65cf4b35e7b72de2beaf22687178cae965c8b6",
+      "bytes": 450436
+    },
+    "visbrowse_bench/images/31.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/31.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "cc9784cd2e4863039b296f0f85f7c3ca3d9e20d9c11d3694133dac11b7797b4a",
+      "bytes": 472078
+    },
+    "visbrowse_bench/images/103.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/103.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "0104154d1ec2c8ec4ef9428667887ae0e8060ac51f43573d0d3c41b1c76b191f",
+      "bytes": 516525
+    },
+    "visbrowse_bench/images/135.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/135.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "27394358fab8246f42d15417a39196d8dda63044813a01a8acd41869bed91367",
+      "bytes": 77668
+    },
+    "visbrowse_bench/images/48.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/48.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "83b90c52cfef581af0f5db62dc9ae45d150f0e2a1dd69dcabc46404d73cc6920",
+      "bytes": 1325175
+    },
+    "visbrowse_bench/images/114.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/114.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "4a6028a17d768568054a0090e0a82104286d92cac2bc7853f4d2ff131053a9d6",
+      "bytes": 1027497
+    },
+    "visbrowse_bench/images/53.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/53.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "af06c3b74947ea5eb50d5c850d4e65463bed139f797ef5058ede0a0cc4c64b9a",
+      "bytes": 34823
+    },
+    "visbrowse_bench/images/142.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/142.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "367ad18611fa045afb2a06242cb6e940da20c1e29d3767bc358fb7475850b670",
+      "bytes": 590423
+    },
+    "visbrowse_bench/images/109.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/109.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "2a78aaf54da485f0e0a52692b15ac2e0e314f001a57f2f3d07aa269272edb633",
+      "bytes": 406224
+    },
+    "visbrowse_bench/images/78.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/78.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "cdd938d528bc72396b6eab31af9e67cc1a93ccd115cb88b02d4fd7f916cbc055",
+      "bytes": 2758199
+    },
+    "visbrowse_bench/images/14_1.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/14_1.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "0ab991e9c3cbb0cda3ac3ff235019cffe8ffe06ebbfe2f7a779997a8221f32cf",
+      "bytes": 477489
+    },
+    "visbrowse_bench/images/14_2.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/14_2.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "40b17fba9c9f15b6ff304ed4d1a466c0e6af99a5fc1be8c7596d2ea4bbfca468",
+      "bytes": 487014
+    },
+    "visbrowse_bench/images/14_3.png": {
+      "transport": "https",
+      "url": "https://raw.githubusercontent.com/ZhengboZhang/VisBrowse-Bench/10b95c0cd5ae3c645b23d676d2421b4306df1034/VisBrowse_Bench_images/14_3.png",
+      "homepage": "https://github.com/ZhengboZhang/VisBrowse-Bench",
+      "sha256": "a764a287864d8313a4fb8008bf4dbc918f208cebdaaa40e6e5b007f6e5ae484d",
+      "bytes": 1402061
+    },
+    "infoseek/val.jsonl": {
+      "transport": "https",
+      "url": "https://storage.googleapis.com/gresearch/open-vision-language/infoseek/infoseek_val.jsonl",
+      "homepage": "https://github.com/open-vision-language/infoseek",
+      "sha256": "21240f83b4d7d9b5cc27f1546e486eb7c1eea9216b77a071acab1bfd9fc741c8",
+      "bytes": 21204639
+    },
+    "livevqa/Dataset_part_001.parquet": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "Dataset_part_001.parquet",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "a55aa02a996e23370cc246dbf918728e4a9dde9116ccdfab5fcd15829dbb4b99",
+      "bytes": 17734149
+    },
+    "livevqa/paper_images.zip": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "paper_images.zip",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "6b54234d37d4f2f34aa235dec3c721de5986c383800cd3ba1c9150254fc430ca",
+      "bytes": 2383774198
+    },
+    "livevqa/Dataset_part_004.parquet": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "Dataset_part_004.parquet",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "1fcf7fd62d802cfa3e57b1cc253e81a6cf84d0ce2d02c6ab43a4e4fbb0c01ebe",
+      "bytes": 23235047
+    },
+    "livevqa/news.zip": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "news.zip",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "37bfe10302f6ced47b347a589eea58beefbd495b6e1d4835d13688c4e5dc6c51",
+      "bytes": 1319561236
+    },
+    "livevqa/Dataset_part_000.parquet": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "Dataset_part_000.parquet",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "0f5d3d992ad997067978302a9ef024d1fe7e1576f971312b98dae7345caf064b",
+      "bytes": 17664920
+    },
+    "livevqa/Dataset_part_007.parquet": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "Dataset_part_007.parquet",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "a2618487455d6ac743be99d48c0f22bab70681b59040ae03471b1755d9061395",
+      "bytes": 14749679
+    },
+    "livevqa/youtube_images.zip": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "youtube_images.zip",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "544f44cdfb9c84a4eb298db85e297904f55f84c772efef423a8d697ccad37ae9",
+      "bytes": 1309519737
+    },
+    "livevqa/Dataset_part_003.parquet": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "Dataset_part_003.parquet",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "cbf86ad44625de4d1dc95476055c6a58ab18a30e1fd386e4d4f00075f8c1d2e4",
+      "bytes": 23478402
+    },
+    "livevqa/Dataset_part_006.parquet": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "Dataset_part_006.parquet",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "70dd9a09f9325850d2415659b5e0e2491c7912b29961291f1a1b7559acf65577",
+      "bytes": 14174944
+    },
+    "livevqa/Dataset_part_008.parquet": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "Dataset_part_008.parquet",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "818784e12e4448f9a6b8a4df68a639c28a14c3b415f202f91933debc5ed9c8e7",
+      "bytes": 15183087
+    },
+    "livevqa/Dataset_part_002.parquet": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "Dataset_part_002.parquet",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "5dc522b32f461930d2e0ad8f57f8e494cbb9cdd7d293ed7b98339b15f84b5600",
+      "bytes": 22428858
+    },
+    "livevqa/Dataset_part_009.parquet": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "Dataset_part_009.parquet",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "7725b1bd3f2d12294a35434670724d67083639bd2b140da79560ae24010ed275",
+      "bytes": 14797425
+    },
+    "livevqa/Dataset_part_005.parquet": {
+      "transport": "hf",
+      "repo": "ONE-Lab/LiveVQA-new",
+      "file": "Dataset_part_005.parquet",
+      "revision": "1a768ce126a239aee0d9d273121c4f4708b4328b",
+      "homepage": "https://huggingface.co/datasets/ONE-Lab/LiveVQA-new",
+      "sha256": "c64e50b329f2268b6ee168ee9d23e65135653b5d688dece1127af0e8454df133",
+      "bytes": 23462216
+    }
+  }
+}

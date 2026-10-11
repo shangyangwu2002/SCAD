@@ -1,0 +1,45 @@
+# Credentials and machine configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+keys.txt
+credentials*
+.netrc
+.aws/
+.ssh/
+# Generated artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv*/
+venv/
+*.egg-info/
+/build/
+/dist/
+/outputs/
+/runtime/
+/models/
+/checkpoints/
+/wandb/
+/tensorboard/
+/logs/
+*.log
+*.parquet
+*.safetensors
+*.pt
+*.bin
+*.npy
+*.npz
+*.faiss
+*.zip
+prepare_report.json
+/data/
+.DS_Store
+.idea/
+.vscode/
+
+# Local validation files excluded from published source
+/SHA256SUMS
+/tests/

@@ -1,0 +1,2 @@
+- name: mm_scad_agent
+  _target_: scripts.train_mm_scad.MMSCADAgentLoop
